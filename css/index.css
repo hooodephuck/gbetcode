@@ -1,0 +1,196 @@
+/* 
+    Created on : 24-May-2018, 16:11:08
+    Author     : User
+*/
+
+ #dropdown { position: absolute; visibility: visible; left: 20px; top: 300px; height: 300px; width: 150px; z-index: 200; }
+/**/
+.hmen{
+    /*styles the box for horizonel menu*/
+    border: 1px solid #555;
+    padding-right:5px;
+    background-color:#2fba2c;
+    float:left;
+    font-size: small;
+    margin-right:2px;
+    min-width:70px;
+    height:18px;
+    text-align: center;
+    color: #333;
+      
+}
+.tmen{
+   border: 1px solid #555; 
+   padding-left:3px;
+   padding-right:3px;
+   background-color: #f1f1f1;
+   float:left;
+   margin-top:3px;
+   margin-bottom:8px;
+   margin-left:4px;
+}
+
+ .dropdown {
+    position: relative;
+    display:none;
+    visibility:hidden;
+}
+
+.dropdown-content {
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 80px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size:11px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+    border-bottom: solid 1px #ccc;
+}
+a:hover
+{
+     background-color: #AFD831;     /*for background new colour (it worked)*/
+}
+.venmen{
+   /*individual menu for a venue*/ 
+    background-color: #f1f1f1;
+}
+.venues{
+    
+}
+#timeMenu{
+    clear: both;
+}
+body {
+    /*background-image: url('http://www.greenbet.co.uk/wp-content/uploads/2015/11/hr1.jpg');*/ 
+    padding:0px;
+}
+
+.containerdivNewLine { clear: both; float: left; display: block; position: relative; } 
+
+.racetitle{
+            font-weight:bold;
+}
+
+.pcontainer{
+                margin-left:auto;
+                margin-right:auto;
+                border:1px;
+                border-style: dotted;
+                /*height:68px;*/
+                min-height: 68px;
+                background-color:  #f4f4f4;
+                width:100%;
+                min-width:800px;
+                margin-left:auto;
+                margin-right:auto;
+                
+            }
+            .col-1-12{
+                padding-top:auto;
+                padding-bottom: auto;
+                width:7%;
+                vertical-align: middle;
+               
+                    border-style: dotted;
+                    border:1px;
+                   /*  */
+            }
+            
+             .col-2-12{
+               padding-top:auto;
+                padding-bottom: auto;
+                width:16.66%;
+                vertical-align: middle;
+                    border-style: dotted;
+                    border:1px;/**/
+                   
+            }
+             .col-3-12{
+                padding-top:auto;
+                padding-bottom: auto;
+                width:25%;
+                vertical-align: middle;
+                min-width:220px;
+                 border-style: dotted; 
+                    border:1px;   /**/
+             
+            }
+            
+            
+            .reg{
+                color:#fff;
+                background-color: #289729;
+                font-weight: bold;
+                font-size: 15px;
+                height: 48px;
+                 padding-top:15px;
+            }
+            .navbar{
+               
+               background-color: transparent; 
+               text-shadow: 0 0 0;
+               font-weight: bold;
+               font-size: 15px;
+               color: rgba(35, 82, 52, 1);
+               padding-top:8px;
+            }
+            
+            .menu{
+                padding-top:18px;
+                float:left;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:auto;
+                margin-bottom:auto;
+                height:52px;
+                text-align: center;
+                overflow:hidden;
+                min-width: 60px;
+                vertical-align:middle;
+            }
+            .lgo{
+                 padding-top:12px;
+                float:left;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:auto;
+                margin-bottom:auto;
+                height:52px;
+                text-align: center;
+                overflow:hidden;
+                min-width: 220px;
+                vertical-align:middle;
+                
+            }
+            mlink{
+              padding-top:8px;  
+            }
+      /*bootstrap override not working*/      
+  #bootstrap-overrides .row{
+        margin-left:0px;
+       }
+  
+   .shortrow{
+       width:70%;
+       float:left;
+        
+       }  
+       .shorterrow{
+       width:28%;
+       float:left;
+      /*border-style: dotted; */ 
+       } 
+       
+       .dot{
+        border-style: dotted;   
+       }
+       
+       .graphs{
+           width: 800px;
+       } 

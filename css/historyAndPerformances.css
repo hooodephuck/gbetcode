@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-Apr-2018, 18:59:09
+    Author     : Ed Taaffe
+*/
+
+.th{
+                background-color: lightgray;
+                background: #ffff00;
+                float:left;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:auto;
+                margin-bottom:auto;
+                border: 1px dotted;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                padding:4px;
+                border-color: rgb(170,170,170);
+                height:26px;
+                text-align: center;
+                overflow:hidden;
+                min-width: 60px;
+                vertical-align:middle;
+            }
+  .cl{
+                float:left;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:auto;
+                margin-bottom:auto;
+                border: 1px dotted;
+                padding:4px;
+                border-color: rgb(170,170,170);
+                height:26px;
+                text-align: center;
+                overflow:hidden;
+                min-width: 60px;
+                vertical-align:middle; 
+            }
+  .cont{
+                display:block;
+                width:90%;
+                margin:auto;
+                
+                /**/
+            }  
+            
+            .thead{
+                float:left;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:auto;
+                margin-bottom:auto;
+                padding:4px;
+                height:56px;
+                text-align: center;
+                overflow:hidden;
+                min-width: 60px;
+                vertical-align:middle;
+            }
+            
+            .cel{
+                float:left;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:auto;
+                margin-bottom:auto;
+                padding:4px;
+                height:26px;
+                text-align: center;
+                overflow:hidden;
+                min-width: 60px;
+                vertical-align:middle; 
+            }
+             .col-2 {
+    width: 12.66%;
+  }
+  
+  .container {
+  width: 90%;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px dotted;
+  border-bottom-color:  #bbb;
+  border-color: rgb(170,170,170);
+  padding:8px;
+  
+ /**/
+}
+.row:after {
+    content: "";
+    display: table-row;
+    clear: both;
+    
+}
+
+.pair{
+   float: left;
+   width: 25%;
+}
+.title{
+   float: left;
+   width:  100%;
+  /* text-decoration: underline;
+   font-weight: bold;*/
+   color:rgb(10, 135, 54);
+}
+
+.tcont{
+                float:left;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:auto;
+                margin-bottom:auto;
+                padding:4px;
+                height:66px;
+                text-align: center;
+                overflow:hidden;
+                min-width: 60px;
+                vertical-align:middle;
+            }

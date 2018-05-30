@@ -1,0 +1,106 @@
+/* 
+    Created on : 28-Feb-2018, 16:12:27
+    Author     : User
+*/
+.TBL{
+  display:table;
+  min-width: 400px;
+  min-height: 120px;
+  clear:left;
+  width:80%;
+}
+.meta{
+   min-width: 20px; 
+   min-height:10px;
+   padding:5px;
+  /* background-color: #cccccc;*/
+   font-family: arial;
+   font-size: 15px;
+   display: table-cell;
+}
+.metat{
+   min-width: 20px; 
+   min-height:15px;
+   padding:5px;
+  /* background-color: #cccccc;*/
+   font-family: arial;
+   font-size: 15px;
+   display: table-cell;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table-row;
+    clear: both;
+}
+.pair{
+   float: left;
+   /*position:relative;
+   width: 25%;
+  border-style: solid;*/
+  width:150px;
+  /*height:100px;*/
+  
+}
+.title{
+   float: left;
+   width: 100%;
+}
+.container{
+    margin-left:auto;
+    margin-right:auto;
+}
+.pair col-lg-2{
+   
+    
+}
+/*like a row but max width around movile phone width and float left so
+a row breaks into 2 bpt when squashed*/
+.bpt{
+   width:300px;
+   height:100px;
+   float:left ;
+   /*border-style: dotted;*/
+}
+
+.summarycontainer{
+    margin-left:auto;
+    margin-right:auto;
+    height: 140px;
+    margin-top: 4px;
+    width:100%;
+}
+.venuemenu{
+    margin-bottom:4px;
+}
+
+ 
+      .cont{
+          width: 100%;
+          max-width: 1200px;
+          display:grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          grid-template-rows:60px 60px;
+          margin-left:20px;
+          margin-right:20px;
+      }   
+      .nestvert{
+         /*border-style: dotted; */
+         grid-template-columns: repeat(auto-fit, 100px);
+         grid-template-rows:30px 30px;
+      }
+      .q{
+         font-weight: bold;
+         padding-left: 10px;
+         margin-left:auto;
+         margin-right:auto;
+      }
+     
+     .a{ padding-left: 10px;
+         margin-left:auto;
+         margin-right:auto;}
+     
+     .tbut{
+       float:rigtht;  
+         
+     }
